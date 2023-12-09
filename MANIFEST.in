@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include erp_veroox *.css
+recursive-include erp_veroox *.csv
+recursive-include erp_veroox *.html
+recursive-include erp_veroox *.ico
+recursive-include erp_veroox *.js
+recursive-include erp_veroox *.json
+recursive-include erp_veroox *.md
+recursive-include erp_veroox *.png
+recursive-include erp_veroox *.py
+recursive-include erp_veroox *.svg
+recursive-include erp_veroox *.txt
+recursive-exclude erp_veroox *.pyc
