@@ -7,6 +7,16 @@ app_description = "-"
 app_email = "erpnext@zamiltec.com"
 app_license = "MIT"
 
+fixtures = [    
+    {"dt": "Custom Field", "filters": [
+        [
+            "Fieldname", "like", "custom_zt_%" 
+        ]     
+    ]
+    }  
+]
+
+
 # Includes in <head>
 # ------------------
 
